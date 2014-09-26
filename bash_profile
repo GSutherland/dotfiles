@@ -16,13 +16,14 @@ export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH"
 
 alias screwcompass="rm -r ~/code/luxre/luxre/public/stylesheets && cd ~/code/luxre/luxre && compass compile"
 alias lux="cd ~/code/luxre/luxre"
+alias api="cd ~/code/luxre/luxuryrealestate_api"
 alias regents="cd ~/code/luxre/regents"
 alias code="cd ~/code"
 alias guard="bundle exec guard start -i"
 alias cmps="./script/compass"
 alias use-lre="sudo ln -sf /etc/apache2/passenger/lre.conf /etc/apache2/passenger/in-use.conf; sudo apachectl restart"
 alias use-193="sudo ln -sf /etc/apache2/passenger/1.9.3-p545.conf /etc/apache2/passenger/in-use.conf; sudo apachectl restart"
-
+alias regentsserver="./bin/rails s -p3001 --binding=127.0.0.1"
 
 # --------------------------------------------------
 # ~ Appearance and Colors ~
